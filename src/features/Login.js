@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
- function Login() {
+function Login() {
     const [user, setUser] = useState({email: "", password: "" });
   return (
     <div>
@@ -23,7 +23,7 @@ import { Link } from "react-router-dom";
         <button>Log In</button>
       </p>
       <p>
-        <Link to="../users">Create Account</Link>
+        <Link to="/users">Create Account</Link>
       </p>
     </div>
   );

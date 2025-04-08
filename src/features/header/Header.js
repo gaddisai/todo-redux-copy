@@ -9,6 +9,7 @@ function Header() {
       <h1>My React Store</h1>
       <div >
         <ul className="App_Header_Right">
+           <li className='headerBox'><Link className='headerColor' to="Home">Home</Link></li>
            <li className='headerBox'><Link className='headerColor' to="login">Login</Link></li>
         </ul>
       </div>
